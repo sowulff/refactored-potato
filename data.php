@@ -2,11 +2,21 @@
 
 declare(strict_types=1);
 
+function getNames(array $smoothies): array
+{
+    $names = [];
+    foreach ($smoothies as $smoothie) {
+        $names[] = $smoothie['name'];
+    }
+    return $names;
+}
+
+
 $smoothies =
     [
         [
             'name' => 'raspberry smoothie',
-            'img' => '/img/bild.png',
+            'img' => '/img/raspberry-smoothie.jpg.webp',
             'recipe' => 'lorem ipsum',
             'ingredients' =>
             [
