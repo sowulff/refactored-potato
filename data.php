@@ -1,20 +1,9 @@
 <?php
 
-declare(strict_types=1);
-
-function getNames(array $smoothies): array
-{
-    $names = [];
-    foreach ($smoothies as $smoothie) {
-        $names[] = $smoothie['name'];
-    }
-    return $names;
-}
-
-
 $smoothies =
     [
         [
+            'id' => 0,
             'name' => 'raspberry smoothie',
             'img' => '/img/raspberry-smoothie.jpg.webp',
             'recipe' => 'lorem ipsum',
@@ -27,8 +16,9 @@ $smoothies =
             ]
         ],
         [
+            'id' => 1,
             'name' => 'mango smoothie',
-            'img' => '/img/bild.png',
+            'img' => '/img/mango-smoothie-9.jpeg',
             'recipe' => 'lorem ipsum',
             'ingredients' =>
             [
@@ -39,8 +29,9 @@ $smoothies =
             ]
         ],
         [
+            'id' => 2,
             'name' => 'pineapple smoothie',
-            'img' => '/img/bild.png',
+            'img' => '/img/Pineapple.jpeg',
             'recipe' => 'lorem ipsum',
             'ingredients' =>
             [

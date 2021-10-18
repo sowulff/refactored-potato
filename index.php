@@ -17,6 +17,27 @@ require __DIR__ . '/header.php';
 </head>
 
 <body>
+    <?php foreach ($smoothies as $smoothie) :
+        $name = $smoothie['name'];
+        $img = $smoothie['img'];
+        $recipe = $smoothie['recipe'];
+    ?>
+
+        <section class="grid">
+
+            <a href="recipe.php?id=2" class="grid-item">
+                <li>
+                    <h3><?php echo $name; ?></h3>
+                </li>
+                <li><img src="<?php echo $img; ?>" width="100%"></li>
+            </a>
+        </section>
+
+
+
+
+    <?php endforeach; ?>
+
 
 </body>
 
