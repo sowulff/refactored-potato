@@ -5,11 +5,12 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 body {
-  background-color: rgb(250, 250, 236);
+  background-color: rgb(255, 255, 255);
 }
 .grid {
   display: grid;
-  margin: 40px;
+  padding: 40px;
+  gap: 50px;
 }
 .grid-item {
   width: 100%;
@@ -23,11 +24,13 @@ body {
   position: absolute;
   object-fit: cover;
   border-radius: 10%;
+  margin-top: 0.5rem;
+  box-shadow: rgb(104, 101, 101) 0px 5px 15px;
 }
 li {
   list-style: none;
 }
-a h3 {
+a h4 {
   text-decoration: none;
   color: black;
   display: flex;
@@ -39,7 +42,8 @@ a {
 }
 @media only screen and (min-width: 700px) {
   .grid {
-    grid-template-columns: 3fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
   }
   .grid-item {
   }

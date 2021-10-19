@@ -4,7 +4,7 @@ $smoothies =
     [
         [
             'id' => 0,
-            'name' => 'raspberry smoothie',
+            'name' => 'raspberry',
             'img' => '/img/raspberry-smoothie.jpg.webp',
             'recipe' => 'lorem ipsum',
             'ingredients' =>
@@ -17,7 +17,7 @@ $smoothies =
         ],
         [
             'id' => 1,
-            'name' => 'mango smoothie',
+            'name' => 'mango',
             'img' => '/img/mango-smoothie-9.jpeg',
             'recipe' => 'lorem ipsum',
             'ingredients' =>
@@ -30,7 +30,7 @@ $smoothies =
         ],
         [
             'id' => 2,
-            'name' => 'pineapple smoothie',
+            'name' => 'pineapple',
             'img' => '/img/Pineapple.jpeg',
             'recipe' => 'lorem ipsum',
             'ingredients' =>
@@ -39,6 +39,45 @@ $smoothies =
                 'peaches',
                 'cashew yogurt',
                 'pineapple juice',
+            ],
+        ],
+        [
+            'id' => 3,
+            'name' => 'almond orange',
+            'img' => '/img/almond.jpeg',
+            'recipe' => 'lorem ipsum',
+            'ingredients' =>
+            [
+                'oranges',
+                'banana',
+                'almond butter',
+                'water',
+            ],
+        ],
+        [
+            'id' => 4,
+            'name' => 'banana',
+            'img' => '/img/banana.jpeg',
+            'recipe' => 'lorem ipsum',
+            'ingredients' =>
+            [
+                'banana',
+                'ice',
+                'greek yogurt',
+                'milk',
+            ],
+        ],
+        [
+            'id' => 5,
+            'name' => 'berry',
+            'img' => '/img/berry.jpeg',
+            'recipe' => 'lorem ipsum',
+            'ingredients' =>
+            [
+                'banana',
+                'ice',
+                'greek yogurt',
+                'milk',
             ],
         ]
     ];

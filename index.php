@@ -1,6 +1,7 @@
 <?php
 require __DIR__ . '/data.php';
 require __DIR__ . '/header.php';
+
 ?>
 
 
@@ -17,26 +18,27 @@ require __DIR__ . '/header.php';
 </head>
 
 <body>
-    <?php foreach ($smoothies as $smoothie) :
-        $name = $smoothie['name'];
-        $img = $smoothie['img'];
-        $recipe = $smoothie['recipe'];
-    ?>
+    <section class="grid">
+        <?php foreach ($smoothies as $smoothie) :
+            $name = $smoothie['name'];
+            $img = $smoothie['img'];
+            $recipe = $smoothie['recipe'];
+            $id = $smoothie['id'];
+        ?>
 
-        <section class="grid">
 
-            <a href="recipe.php?id=2" class="grid-item">
+            <a href="recipe.php?id=<?= $id; ?>" class="grid-item">
                 <li>
-                    <h3><?php echo $name; ?></h3>
+                    <h4><?php echo $name; ?></h4>
                 </li>
                 <li><img src="<?php echo $img; ?>" width="100%"></li>
             </a>
-        </section>
 
 
 
 
-    <?php endforeach; ?>
+        <?php endforeach; ?>
+    </section>
 
 
 </body>
