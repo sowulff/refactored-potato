@@ -1,5 +1,5 @@
 <?php
-require __DIR__ . '/data.php';
+require __DIR__ . '/php/data.php';
 require __DIR__ . '/header.php';
 
 ?>
@@ -41,6 +41,5 @@ require __DIR__ . '/header.php';
     </section>
 
 
-</body>
-
-</html>
+    <?php
+    require __DIR__ . '/footer.php';

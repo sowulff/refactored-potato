@@ -1,15 +1,16 @@
 <?php
 
+declare(strict_types=1);
 $smoothies =
     [
         [
             'id' => 0,
             'name' => 'raspberry',
             'img' => '/img/raspberry-smoothie.jpg.webp',
-            'recipe' => 'lorem ipsum',
+            'recipe' => 'lorem ipsumh',
             'ingredients' =>
             [
-                'fresh strawberries',
+                'strawberries',
                 'banana',
                 'greek yogurt',
                 'milk',
@@ -35,7 +36,7 @@ $smoothies =
             'recipe' => 'lorem ipsum',
             'ingredients' =>
             [
-                'frozen pineapple',
+                'pineapple',
                 'peaches',
                 'cashew yogurt',
                 'pineapple juice',
@@ -74,8 +75,8 @@ $smoothies =
             'recipe' => 'lorem ipsum',
             'ingredients' =>
             [
-                'banana',
-                'ice',
+                'blueberry',
+                'raspberry',
                 'greek yogurt',
                 'milk',
             ],
