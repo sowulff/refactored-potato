@@ -7,7 +7,7 @@ $smoothies =
             'id' => 0,
             'name' => 'raspberry',
             'img' => '/img/raspberry-smoothie.jpg.webp',
-            'recipe' => 'lorem ipsumh',
+            'recipe' => 'Blend all the ingredients together in a high-powered blender for 30 seconds, or until creamy.',
             'ingredients' =>
             [
                 'raspberry',
@@ -20,7 +20,7 @@ $smoothies =
             'id' => 1,
             'name' => 'mango',
             'img' => '/img/mango-smoothie-9.jpeg',
-            'recipe' => 'lorem ipsum',
+            'recipe' => 'Blend all the ingredients together in a high-powered blender for 30 seconds, or until creamy.',
             'ingredients' =>
             [
                 'mango',
@@ -33,7 +33,7 @@ $smoothies =
             'id' => 2,
             'name' => 'pineapple',
             'img' => '/img/Pineapple.jpeg',
-            'recipe' => 'lorem ipsum',
+            'recipe' => 'Blend all the ingredients together in a high-powered blender for 30 seconds, or until creamy.',
             'ingredients' =>
             [
                 'pineapple',
@@ -46,7 +46,7 @@ $smoothies =
             'id' => 3,
             'name' => 'almond orange',
             'img' => '/img/almond.jpeg',
-            'recipe' => 'lorem ipsum',
+            'recipe' => 'Blend all the ingredients together in a high-powered blender for 30 seconds, or until creamy.',
             'ingredients' =>
             [
                 'orange',
@@ -59,7 +59,7 @@ $smoothies =
             'id' => 4,
             'name' => 'banana',
             'img' => '/img/banana.jpeg',
-            'recipe' => 'lorem ipsum',
+            'recipe' => 'Blend all the ingredients together in a high-powered blender for 30 seconds, or until creamy.',
             'ingredients' =>
             [
                 'banana',
@@ -72,7 +72,7 @@ $smoothies =
             'id' => 5,
             'name' => 'berry',
             'img' => '/img/berry.jpeg',
-            'recipe' => 'lorem ipsum',
+            'recipe' => 'Blend all the ingredients together in a high-powered blender for 30 seconds, or until creamy.',
             'ingredients' =>
             [
                 'blueberry',

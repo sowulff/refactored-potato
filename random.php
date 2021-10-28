@@ -17,7 +17,7 @@ require __DIR__ . '/header.php';
 </head>
 
 <body>
-    <section class="grid">
+    <section class="section-recipe">
 
         <?php
         $recipe = $smoothies[array_rand($smoothies)];
@@ -34,7 +34,7 @@ require __DIR__ . '/header.php';
             <li>
                 <h4><?php echo $name; ?></h4>
             </li>
-            <li><img src="<?php echo $img; ?>" width="100%"></li>
+            <li class="photo"><img src="<?php echo $img; ?>" width="100%"></li>
 
 
         </a>

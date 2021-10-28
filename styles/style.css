@@ -49,8 +49,6 @@ a {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
   }
-  .grid-item {
-  }
 }
 @media (prefers-color-scheme: dark) {
   body {
