@@ -18,7 +18,7 @@ require __DIR__ . '/header.php';
 </head>
 
 <body>
-    <section class="grid">
+    <section class="section-recipe">
         <?php
         // https://stackoverflow.com/questions/1019076/how-to-search-by-key-value-in-a-multidimensional-array-in-php
         function search($smoothies, $key, $value)
@@ -54,13 +54,21 @@ require __DIR__ . '/header.php';
 
 
         </a>
-        <div>
-            <li><?php echo $text; ?></li>
-
+        <div class="ingredients-box">
+            <li>
+                <h4>This is what you need:</h4>
+            </li>
             <?php foreach ($ingredients as $ingredient) : ?>
-                <li><?= $ingredient; ?></li>
+                <li class="ingredients"><?= $ingredient; ?></li>
             <?php endforeach; ?>
         </div>
+        <div class="recipe-box">
+            <li>
+                <h4>Let's get started!</h4>
+            </li>
+            <li class="recipe"><?php echo $text; ?></li>
+        </div>
+
 
     </section>
 

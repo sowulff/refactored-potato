@@ -10,7 +10,7 @@ $smoothies =
             'recipe' => 'lorem ipsumh',
             'ingredients' =>
             [
-                'strawberries',
+                'raspberry',
                 'banana',
                 'greek yogurt',
                 'milk',
@@ -23,8 +23,8 @@ $smoothies =
             'recipe' => 'lorem ipsum',
             'ingredients' =>
             [
-                'fresh mango',
-                'frozen banana',
+                'mango',
+                'banana',
                 'yogurt',
                 'milk',
             ]
@@ -37,7 +37,7 @@ $smoothies =
             'ingredients' =>
             [
                 'pineapple',
-                'peaches',
+                'peach',
                 'cashew yogurt',
                 'pineapple juice',
             ],
@@ -49,7 +49,7 @@ $smoothies =
             'recipe' => 'lorem ipsum',
             'ingredients' =>
             [
-                'oranges',
+                'orange',
                 'banana',
                 'almond butter',
                 'water',

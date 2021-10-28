@@ -14,13 +14,17 @@ require __DIR__ . '/header.php'; ?>
 </head>
 
 <body>
+    <div class="question-fruits">
+        <h3>Choose a fruit you whant to mix in your smoothie!
+        </h3>
+    </div>
 
     <div class="container">
 
         <form method="POST" action="form.php" class="form">
             <div>
-                <input id="strawberry" class="radio-custom" type="radio" name="ingredient" value="strawberries">
-                <label for="strwberry" class="radio-custom-label">Strawberry</label>
+                <input id="raspberry" class="radio-custom" type="radio" name="ingredient" value="raspberry">
+                <label for="strwberry" class="radio-custom-label">Raspberry</label>
             </div>
             <div>
                 <input id="banana" class="radio-custom" type="radio" name="ingredient" value="banana">
@@ -31,8 +35,20 @@ require __DIR__ . '/header.php'; ?>
                 <label for="blueberry" class="radio-custom-label">Blueberry</label>
             </div>
             <div>
-                <input id="milk" class="radio-custom" type="radio" name="ingredient" value="milk">
-                <label for="milk" class="radio-custom-label">Milk</label>
+                <input id="mango" class="radio-custom" type="radio" name="ingredient" value="mango">
+                <label for="milk" class="radio-custom-label">Mango</label>
+            </div>
+            <div>
+                <input id="pineapple" class="radio-custom" type="radio" name="ingredient" value="pineapple">
+                <label for="milk" class="radio-custom-label">Pineapple</label>
+            </div>
+            <div>
+                <input id="orange" class="radio-custom" type="radio" name="ingredient" value="orange">
+                <label for="milk" class="radio-custom-label">Orange</label>
+            </div>
+            <div>
+                <input id="peach" class="radio-custom" type="radio" name="ingredient" value="peach">
+                <label for="milk" class="radio-custom-label">Peach</label>
             </div>
 
             <input type="submit" name="" value="submit">
@@ -53,9 +69,8 @@ require __DIR__ . '/header.php'; ?>
 
                     $name = $smoothie['name'];
                     $img = $smoothie['img'];
-                    $id = $smoothie['id']; ?>
-
-
+                    $id = $smoothie['id'];
+        ?>
                     <a href="recipe.php?id=<?= $id; ?>" class="grid-item">
                         <li>
                             <h4><?php echo $name; ?></h4>

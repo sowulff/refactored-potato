@@ -40,6 +40,10 @@ a h4 {
 a {
   text-decoration: none;
 }
+.description {
+  padding: 40px;
+  background-color: rgb(248, 234, 242);
+}
 @media only screen and (min-width: 850px) {
   .grid {
     grid-template-columns: 1fr 1fr 1fr;

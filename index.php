@@ -18,6 +18,9 @@ require __DIR__ . '/header.php';
 </head>
 
 <body>
+    <div class="description">
+        <h3>You´re favorite smoothies in one place!</h3>
+    </div>
     <section class="grid">
         <?php foreach ($smoothies as $smoothie) :
             $name = $smoothie['name'];

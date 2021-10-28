@@ -13,33 +13,48 @@ require __DIR__ . '/header.php';
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="/styles/recipe.css">
 </head>
 
 <body>
-
-    <?php
-    $recipe = $smoothies[array_rand($smoothies)];
-    $name = $recipe['name'];
-    $img = $recipe['img'];
-    $text = $recipe['recipe'];
-    $ingredients = $recipe['ingredients']
-
-    ?>
-
     <section class="grid">
+
+        <?php
+        $recipe = $smoothies[array_rand($smoothies)];
+        $name = $recipe['name'];
+        $img = $recipe['img'];
+        $text = $recipe['recipe'];
+        $ingredients = $recipe['ingredients']
+
+        ?>
+
+
+
         <a href="#" class="grid-item">
             <li>
                 <h4><?php echo $name; ?></h4>
             </li>
             <li><img src="<?php echo $img; ?>" width="100%"></li>
+
+
+        </a>
+        <div class="ingredients-box">
+            <li>
+                <h4>This is what you need:</h4>
+            </li>
+            <?php foreach ($ingredients as $ingredient) : ?>
+                <li class="ingredients"><?= $ingredient; ?></li>
+            <?php endforeach; ?>
+        </div>
+        <div class="recipe-box">
+            <li>
+                <h4>Let's get started!</h4>
+            </li>
+            <li class="recipe"><?php echo $text; ?></li>
+        </div>
+
+
     </section>
-    <li><?php echo $text; ?></li>
-    <?php
-    foreach ($ingredients as $ingredient) : ?>
-        <li><?php echo $ingredient; ?></li>
-    <?php endforeach
-    ?>
 
 </body>
 
