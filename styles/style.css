@@ -50,12 +50,3 @@ a {
     grid-template-rows: 1fr 1fr;
   }
 }
-@media (prefers-color-scheme: dark) {
-  body {
-    background-color: rgb(70, 65, 65);
-    color: white;
-  }
-  a h4 {
-    color: white;
-  }
-}
