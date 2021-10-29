@@ -2,11 +2,16 @@ INSERT MANDATORY GIF
 
 # My Smoothie Website
 
-Text about the project and why it exists. This would also be a great place to link the project on One.com.
+A PHP-assignment in which I've created a recipe website for smoothies. 
+Go visit my website on http://sowulff.com/refactored-potato/index.php !
 
 # Installation
 
-Add the installation instructions.
+Clone or fork the project.
+Navigate to the root of this directory in your terminal of choice.
+Start a localhost server from your command line.
+"php -S localhost:8000"
+Launch the website with your localhost server in your preferred browser.
 
 # Code Review
 
