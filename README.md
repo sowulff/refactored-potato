@@ -21,9 +21,9 @@ Code review written by [Christopher Michael](https://github.com/chrs-m).
 2. `footer.php` - File exist but is not included anywhere?
 3. `data.php` - Since 'recipe' is the same everywhere, it could have been made into a variable. Also, you might want to use capital letter on the names and ingredients.
 4. `form.php:4-14` - No need for HTML emmet when you have the header.php required.
-5. `index.php:8-18` - See as above, _No need for HTML emmet_.
-6. `recipe.php:8-18` - See as above, _No need for HTML emmet_.
-7. `random.php:8-18` - See as above, _No need for HTML emmet_.
+5. `index.php:8-18` - See above, _No need for HTML emmet_.
+6. `recipe.php:8-18` - See above, _No need for HTML emmet_.
+7. `random.php:8-18` - See above, _No need for HTML emmet_.
 8. `recipe.php` - Variables could be moved into its own file like '_varibles.php_'.
 9. `shuffle.php` - Could probably be named _functions.php_ since that's whats in it. That would make it easier in future if you would want to add more functions to your project.
 10. `random.php` - Isn't this page meant to be using your function "getRandomRecipe" from `shuffle.php`? Now you are doing the same thing, but without the function.
