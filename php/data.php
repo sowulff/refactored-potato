@@ -6,7 +6,7 @@ $smoothies =
         [
             'id' => 0,
             'name' => 'raspberry',
-            'img' => '/img/raspberry-smoothie.jpg.webp',
+            'img' => 'img/raspberry-smoothie.jpg.webp',
             'recipe' => 'Blend all the ingredients together in a high-powered blender for 30 seconds, or until creamy.',
             'ingredients' =>
             [
@@ -19,7 +19,7 @@ $smoothies =
         [
             'id' => 1,
             'name' => 'mango',
-            'img' => '/img/mango-smoothie-9.jpeg',
+            'img' => 'img/mango-smoothie-9.jpeg',
             'recipe' => 'Blend all the ingredients together in a high-powered blender for 30 seconds, or until creamy.',
             'ingredients' =>
             [
@@ -32,7 +32,7 @@ $smoothies =
         [
             'id' => 2,
             'name' => 'pineapple',
-            'img' => '/img/Pineapple.jpeg',
+            'img' => 'img/Pineapple.jpeg',
             'recipe' => 'Blend all the ingredients together in a high-powered blender for 30 seconds, or until creamy.',
             'ingredients' =>
             [
@@ -45,7 +45,7 @@ $smoothies =
         [
             'id' => 3,
             'name' => 'almond orange',
-            'img' => '/img/almond.jpeg',
+            'img' => 'img/almond.jpeg',
             'recipe' => 'Blend all the ingredients together in a high-powered blender for 30 seconds, or until creamy.',
             'ingredients' =>
             [
@@ -58,7 +58,7 @@ $smoothies =
         [
             'id' => 4,
             'name' => 'banana',
-            'img' => '/img/banana.jpeg',
+            'img' => 'img/banana.jpeg',
             'recipe' => 'Blend all the ingredients together in a high-powered blender for 30 seconds, or until creamy.',
             'ingredients' =>
             [
@@ -71,7 +71,7 @@ $smoothies =
         [
             'id' => 5,
             'name' => 'berry',
-            'img' => '/img/berry.jpeg',
+            'img' => 'img/berry.jpeg',
             'recipe' => 'Blend all the ingredients together in a high-powered blender for 30 seconds, or until creamy.',
             'ingredients' =>
             [
