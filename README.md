@@ -41,5 +41,5 @@ _Nitpicking:_
 
 Tested by the following people:
 
-1. Jane Doe
-2. John Doe
+1. Johanna Jönsson
+2. Linnea Eriksson
