@@ -1,4 +1,4 @@
-INSERT MANDATORY GIF
+<img src="https://media.giphy.com/media/3ohzAoZG9dPZ0Y0AZG/giphy.gif" width="40" height="40" />
 
 # My Smoothie Website
 
