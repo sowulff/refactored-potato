@@ -1,4 +1,4 @@
-<img src="https://media.giphy.com/media/3ohzAoZG9dPZ0Y0AZG/giphy.gif" width=100px/>
+<img src="https://media.giphy.com/media/3ohzAoZG9dPZ0Y0AZG/giphy.gif"/>
 
 # My Smoothie Website
 
